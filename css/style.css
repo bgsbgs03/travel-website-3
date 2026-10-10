@@ -485,6 +485,7 @@
 .closing-button {
   border: none;
   background-color: var(--primary-color);
+  /* color: #FFFFFF; */
   color: var(--white);
   height: 48px;
   width: 240px;
