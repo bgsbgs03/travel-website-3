@@ -663,7 +663,7 @@ footer {
   .closing-button {
     height: 40px;
     width: 132px;
-    font-size: 14px;
+    font-size: 10px;
   }
 
   footer {
@@ -932,5 +932,5 @@ footer {
 
 /* Change the link color when the button is hovered */
 .closing-button:hover a {
-  color: 007ad1;             /* New text color on hover */
+  color: #ffffff;             /* New text color on hover */
 }
