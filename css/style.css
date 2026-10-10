@@ -897,7 +897,29 @@ footer {
   .closing-content h2 {
     font-size: 18px;
   }
+
+  
   .closing-content p {
     font-size: 15px;
   }
+}
+
+/* 1. Unvisited link */
+.link_cb:link {
+  color: #ddf50a;
+}
+
+/* 2. Visited link */
+.link_cb:visited {
+  color: #a4b021;
+}
+
+/* 3. Mouse hover */
+.link_cb:hover {
+  color: #ffffff;
+}
+
+/* 4. Active (the moment it is clicked) */
+.link_cb:active {
+  color: #faf8f0;
 }
