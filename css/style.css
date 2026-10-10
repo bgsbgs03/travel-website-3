@@ -490,6 +490,7 @@
   height: 48px;
   width: 240px;
   border-radius: 10px;
+  font-size: 14px;
 }
 
 .closing-button:hover {
@@ -660,11 +661,11 @@ footer {
     font-size: 24px;
   }
 
-  .closing-button {
+  /* .closing-button {
     height: 40px;
     width: 132px;
     font-size: 10px;
-  }
+  } */
 
   footer {
     width: 90%;
@@ -838,11 +839,11 @@ footer {
     font-size: 19px;
   }
 
-  .closing-button {
+  /* .closing-button {
     height: 32px;
     width: 160px;
     font-size: 14px;
-  }
+  } */
 
   footer {
     width: 100%;
