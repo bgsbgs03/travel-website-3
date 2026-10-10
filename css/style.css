@@ -841,7 +841,7 @@ footer {
   .closing-button {
     height: 32px;
     width: 160px;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   footer {
@@ -916,10 +916,21 @@ footer {
 
 /* 3. Mouse hover */
 .link_cb:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 /* 4. Active (the moment it is clicked) */
 .link_cb:active {
-  color: #faf8f0;
+  color: #000000;
+}
+
+/* Base styles for the link inside the button */
+.closing-button a {
+  color: #ddf50a;            /* Initial link color */
+  text-decoration: none;  /* Removes the default underline */
+}
+
+/* Change the link color when the button is hovered */
+.closing-button:hover a {
+  color: 007ad1;             /* New text color on hover */
 }
