@@ -904,33 +904,4 @@ footer {
   }
 }
 
-/* 1. Unvisited link */
-.link_cb:link {
-  color: #ddf50a;
-}
 
-/* 2. Visited link */
-.link_cb:visited {
-  color: #a4b021;
-}
-
-/* 3. Mouse hover */
-.link_cb:hover {
-  color: #000000;
-}
-
-/* 4. Active (the moment it is clicked) */
-.link_cb:active {
-  color: #000000;
-}
-
-/* Base styles for the link inside the button */
-.closing-button a {
-  color: #ddf50a;            /* Initial link color */
-  text-decoration: none;  /* Removes the default underline */
-}
-
-/* Change the link color when the button is hovered */
-.closing-button:hover a {
-  color: #ffffff;             /* New text color on hover */
-}
